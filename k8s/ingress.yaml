@@ -6,7 +6,7 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx
+  ingressClassName: nginx-ingress-controller
   rules:
   - host: acmecorp.k8s.coedge.cloud
     http:
