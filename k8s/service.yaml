@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-app-svc
+  namespace: customer-acmecorp
+  labels:
+    app: demo-app
+spec:
+  selector:
+    app: demo-app
+  ports:
+  - name: http
+    port: 80
+    targetPort: 3000
+  type: ClusterIP

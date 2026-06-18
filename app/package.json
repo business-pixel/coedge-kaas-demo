@@ -1,0 +1,12 @@
+{
+  "name": "coedge-kaas-demo",
+  "version": "1.0.0",
+  "description": "CoEdge KaaS demo — Node server showing pod identity for LB + HPA testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
