@@ -1,4 +1,4 @@
-# CoEdge KaaS Demo App
+# CoEdge KaaS Demo App Test
 
 A minimal Node.js server to test **load balancing** and **HPA (autoscaling)** on CoEdge's shared namespace Kubernetes offering.
 
