@@ -16,7 +16,7 @@ spec:
       name: cpu
       target:
         type: Utilization
-        averageUtilization: 30   # Low threshold so HPA triggers easily in testing
+        averageUtilization: 1   # Low threshold so HPA triggers easily in testing
   behavior:
     scaleUp:
       stabilizationWindowSeconds: 30   # Scale up fast for testing
